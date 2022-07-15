@@ -92,7 +92,7 @@ main:
 	mov	rax,[num1]	;moving the value of num 1 into the rax regiser
 	sar	rax,2		;dividing rax by 4
 ;similarily to the sal command sar shifts the binary values though this time to the right
-;i.e 1100----->0011(12-->3)  
+;i.e 01100----->00011(12-->3)  
 	mov	[resulti],rax	;moving the value of rax sar 2 into resulti
 ;displaying the result
 	mov	rdi,fmtint	;moving fmt into the rdi register
